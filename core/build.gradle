@@ -5,6 +5,10 @@ plugins {
 
 sourceCompatibility = 1.8
 
+repositories {
+    mavenCentral()
+}
+
 bootRun {
     systemProperties System.properties
 }
